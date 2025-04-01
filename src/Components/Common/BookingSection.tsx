@@ -982,7 +982,7 @@ const BookingSection: React.FC = () => {
                         whileTap={{ scale: 0.98 }}
                       >
                         <button
-                          variant="primary"
+                          // variant="primary"
                           onClick={() => setStep(1)}
                           style={{ 
                             background: styles.gradient,
