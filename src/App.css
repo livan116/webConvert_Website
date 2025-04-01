@@ -1,0 +1,55 @@
+/* @import "tailwindcss"; */
+
+#root {
+  width: 100%;
+}
+.stars ul {
+  padding: 0 !important;
+  margin: 0 !important;
+}
+footer ul {
+  margin: 0 !important;
+  padding: 0 !important;
+}
+
+.all-images-menu.home-menu {
+  display: grid !important;
+  grid-template-columns: auto auto auto auto auto;
+  gap: 20px;
+}
+
+.home-menu > div {
+  width: 100%;
+}
+.home-menu .homemenu-thumb {
+  margin: 0 !important;
+  position: relative;
+}
+
+/* select style */
+.country-area > div {
+  border-radius: 8px;
+  border: 1px solid #e6e6e6;
+  padding: 8px;
+}
+.country-area > div:hover {
+  border: 1px solid #e6e6e6;
+}
+.country-area > div:last-child {
+  z-index: 10;
+}
+
+/* preloader */
+.preloader {
+  transition: opacity 0.5s ease, visibility 0.5s ease; /* Smooth transition for fade effect */
+}
+
+.preloader.fade-out {
+  opacity: 0;
+  visibility: hidden; /* Hide the element when fading out */
+}
+
+.preloader.fade-in {
+  opacity: 1;
+  visibility: visible; /* Show the element when fading in */
+}

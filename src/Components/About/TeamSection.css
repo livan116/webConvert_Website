@@ -1,0 +1,78 @@
+/* Team Section Styles */
+.team-slider-container {
+  margin: 0 -15px;
+  overflow: hidden;
+}
+
+.team-slider-item {
+  padding: 15px;
+}
+
+/* Fix for the social icons */
+.team-card-wrapper {
+  max-width: 100%;
+}
+
+.team-boxarea {
+  position: relative;
+  margin-bottom: 30px;
+}
+
+.social-icons-list {
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  bottom: 80px;
+  left: 0;
+  right: 0;
+  margin: 0 auto;
+  padding: 10px;
+  list-style: none;
+  text-align: center;
+  z-index: 1;
+  transition: all 0.3s ease;
+}
+
+.social-icon-link {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background-color: #fff;
+  transition: all 0.3s ease;
+}
+
+.social-icon {
+  width: 20px;
+  height: 20px;
+  object-fit: contain;
+}
+
+/* Slick overrides */
+.slick-slide {
+  height: auto;
+}
+
+.slick-track {
+  display: flex;
+  align-items: stretch;
+}
+
+/* Ensuring the column structure works in the slider */
+.team-card-wrapper .team-boxarea {
+  height: 100%;
+}
+
+/* Dots styling */
+.slick-dots li button:before {
+  font-size: 12px;
+}
+
+.slick-dots li.slick-active button:before {
+  opacity: 1;
+  color: #000;
+}
