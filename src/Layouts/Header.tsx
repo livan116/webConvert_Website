@@ -7,13 +7,13 @@ interface MenuItem {
   dropdown?: { label: string; to: string }[];
 }
 
-interface HomeMenuItem {
-  imageSrc: string;
-  multiPageLink: string;
-  onePageLink: string;
-  isNew?: boolean;
-  isHot?: boolean;
-}
+// interface HomeMenuItem {
+//   imageSrc: string;
+//   multiPageLink: string;
+//   onePageLink: string;
+//   isNew?: boolean;
+//   isHot?: boolean;
+// }
 
 
 

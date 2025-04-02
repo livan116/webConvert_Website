@@ -1,13 +1,13 @@
 import React, { useState, useRef } from 'react';
 // import '../../assets/css/fonts.css'
-import { Container, Row, Col, Form, Button, Card, ProgressBar, Alert } from 'react-bootstrap';
+import { Container, Row, Col, Form, Button, Card, ProgressBar} from 'react-bootstrap';
 import { 
   FaCalendarAlt, 
   FaClock, 
   FaArrowLeft, 
   FaUserAlt, 
   FaEnvelope, 
-  FaPhone, 
+
   FaCheck, 
   FaChevronLeft, 
   FaChevronRight, 
@@ -185,7 +185,7 @@ const BookingSection: React.FC = () => {
   const firstDayOfMonth = new Date(displayYear, displayMonth, 1).getDay();
   
   const daysArray = Array.from({ length: daysInMonth }, (_, i) => i + 1);
-  const paddingDays = Array.from({ length: firstDayOfMonth }, (_, i) => null);
+  const paddingDays = Array.from({ length: firstDayOfMonth }, () => null);
   
   const monthNames = [
     'JANUARY', 'FEBRUARY', 'MARCH', 'APRIL', 'MAY', 'JUNE', 

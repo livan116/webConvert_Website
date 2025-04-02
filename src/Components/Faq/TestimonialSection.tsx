@@ -146,7 +146,7 @@ const TestimonialSection: React.FC = () => {
           <Col lg={12}>
             <motion.div variants={sliderVariants}>
               <Slider {...settings} className="testimonial4-slider-area">
-                {testimonials.map((testimonial, index) => (
+                {testimonials.map((testimonial) => (
                   <div className="testimonial-boxarea" key={testimonial.id}>
                     <img
                       src="src/assets/img/icons/quito4.svg"

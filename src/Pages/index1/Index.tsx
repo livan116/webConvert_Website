@@ -5,7 +5,7 @@ import ContactSection from "../../Components/HomePage1/ContactSection";
 import CtaSection from "../../Components/Common/CtaSection";
 import GoogleReviews from "../../Components/Common/GoogleReviews";
 import Hero from "../../Components/HomePage1/Hero";
-import ServiceSection from "../../Components/HomePage1/ServiceSection";
+// import ServiceSection from "../../Components/HomePage1/ServiceSection";
 import ServiceSection2 from "../../Components/Common/ServiceSection2";
 import Header from "../../Layouts/Header";
 import Footer from "../../Layouts/Footer";
@@ -16,7 +16,7 @@ import TestimonialSection from "../../Components/Faq/TestimonialSection";
 import BookingSection from "../../Components/Common/BookingSection";
 import FAQAccodian from "../../Components/Faq/FAQAccodian";
 import PricingSection from "../../Components/Pricing/PricingSection";
-import TeamMembersSection from "../../Components/Team/TeamMembersSection";
+// import TeamMembersSection from "../../Components/Team/TeamMembersSection";
 import TeamSection from "../../Components/About/TeamSection";
 
 const HomePage1 = () => {

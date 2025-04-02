@@ -2,7 +2,7 @@ import React, { useState, useEffect, ReactNode } from "react";
 // import "./PrivacyPolicy.css";
 import {
   ChevronDown,
-  Shield,
+
   Eye,
   Lock,
   Bell,

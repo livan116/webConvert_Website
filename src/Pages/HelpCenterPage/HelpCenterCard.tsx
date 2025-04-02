@@ -13,7 +13,7 @@ interface HelpCenterCardProps {
 const HelpCenterCard: React.FC<HelpCenterCardProps> = ({
     icon, // React element or component
     iconBgColor = "bg-primary bg-opacity-10", // Default background color
-    iconColor = "text-primary", // Default icon color
+    // Default icon color
     title,
     content,
     className = "" // Additional custom classes

@@ -1,5 +1,5 @@
-import React, { useEffect, useState } from "react";
-import Slider from "react-slick"; // Fixed import name from react-sliders to react-slick
+import React from "react";
+import Slider from "react-slick";
 
 const brandImages = [
   "src/assets/img/elements/brand-img1.png",
@@ -12,18 +12,7 @@ const brandImages = [
 const CompanySliderSection: React.FC<{ className: string }> = ({
   className,
 }) => {
-  const [windowWidth, setWindowWidth] = useState(
-    typeof window !== "undefined" ? window.innerWidth : 992
-  );
-
-  useEffect(() => {
-    const handleResize = () => {
-      setWindowWidth(window.innerWidth);
-    };
-
-    window.addEventListener("resize", handleResize);
-    return () => window.removeEventListener("resize", handleResize);
-  }, []);
+  // Removed unused state and useEffect
 
   const settings = {
     arrows: false,

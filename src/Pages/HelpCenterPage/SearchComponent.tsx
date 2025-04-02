@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import { useState } from 'react';
 // import image from '../../assets/img/all-images/blog-img1.png'
 const SearchComponent = () => {
     const [isDropdownOpen, setIsDropdownOpen] = useState(false);

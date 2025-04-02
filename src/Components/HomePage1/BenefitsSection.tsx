@@ -4,7 +4,14 @@ import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 
-const caseStudies = [
+interface CaseStudy {
+  title: string;
+  content: string;
+  image: string;
+  thumbClass: string;
+}
+
+const caseStudies: CaseStudy[] = [
   {
     title: "Website Design & Development",
     content:
@@ -57,21 +64,17 @@ const caseStudies = [
 ];
 
 const BenefitsSection = () => {
-  const [activeIndex, setActiveIndex] = useState(0);
-  const [isMobile, setIsMobile] = useState(false);
+  const [activeIndex, setActiveIndex] = useState<number>(0);
+  const [isMobile, setIsMobile] = useState<boolean>(false);
 
   useEffect(() => {
     const checkIsMobile = () => {
       setIsMobile(window.innerWidth < 992);
     };
 
-    // Initial check
     checkIsMobile();
-
-    // Add event listener
     window.addEventListener("resize", checkIsMobile);
 
-    // Cleanup
     return () => window.removeEventListener("resize", checkIsMobile);
   }, []);
 
@@ -90,8 +93,7 @@ const BenefitsSection = () => {
     centerPadding: "0px",
   };
 
-  // Render the case study items - used for both desktop and inside mobile slider
-  const renderCaseStudyItem = (caseStudy, index) => (
+  const renderCaseStudyItem = (caseStudy: CaseStudy, index: number) => (
     <div
       key={index}
       className={`cs_case_study cs_style_1 cs_hover_active ${

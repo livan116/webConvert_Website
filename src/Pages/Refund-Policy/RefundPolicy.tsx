@@ -1,7 +1,7 @@
 import React, { useState, useEffect, ReactNode } from "react";
 import {
   ChevronDown,
-  RefreshCw,
+ 
   CalendarClock,
   CreditCard,
   ShoppingCart,

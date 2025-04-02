@@ -2,7 +2,7 @@ import React, { useState, useEffect, ReactNode } from "react";
 import {
   ChevronDown,
   FileText,
-  Scale,
+
   Clock,
   AlertTriangle,
   ShieldAlert,
