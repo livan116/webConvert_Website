@@ -298,7 +298,7 @@ const MobileHeaderSidebar: React.FC = () => {
   useEffect(() => {
     switch (document.body.classList[0]) {
       case "homepage1-body":
-        setLogoUrl("src/assets/img/logo/logo1.png");
+        setLogoUrl("../assets/img/logo/logo1.png");
         setHeaderClass("mobile-header1");
         setSidebarClass("mobile-sidebar1");
         setBtnClass("header-btn1");

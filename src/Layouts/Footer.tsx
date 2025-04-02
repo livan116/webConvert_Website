@@ -8,7 +8,7 @@ const Footer: React.FC = () => {
         <div className="row">
           <div className="col-lg-3 col-md-6">
             <div className="footer-logo-area">
-              <img src="src/assets/img/logo/logo1.png" alt="" />
+              <img src="../assets/img/logo/logo1.png" alt="" />
               <p>
                 By optimizing content, leveraging relevant keywords, and
                 adhering to best practices, businesses can secure prominent
@@ -17,22 +17,22 @@ const Footer: React.FC = () => {
               <ul>
                 <li>
                   <Link to="#">
-                    <img src="src/assets/img/icons/facebook.svg" alt="" />
+                    <img src="../assets/img/icons/facebook.svg" alt="" />
                   </Link>
                 </li>
                 <li>
                   <Link to="#">
-                    <img src="src/assets/img/icons/instagram.svg" alt="" />
+                    <img src="../assets/img/icons/instagram.svg" alt="" />
                   </Link>
                 </li>
                 <li>
                   <Link to="#">
-                    <img src="src/assets/img/icons/linkedin.svg" alt="" />
+                    <img src="../assets/img/icons/linkedin.svg" alt="" />
                   </Link>
                 </li>
                 <li>
                   <Link to="#">
-                    <img src="src/assets/img/icons/youtube.svg" alt="" />
+                    <img src="../assets/img/icons/youtube.svg" alt="" />
                   </Link>
                 </li>
               </ul>
@@ -71,13 +71,13 @@ const Footer: React.FC = () => {
               <ul>
                 <li>
                   <Link to="mailto:Infoseoc@gmail.com">
-                    <img src="src/assets/img/icons/email.svg" alt="" />
+                    <img src="../assets/img/icons/email.svg" alt="" />
                     <span>Infoseoc@gmail.com</span>
                   </Link>
                 </li>
                 <li>
                   <Link to="#">
-                    <img src="src/assets/img/icons/location.svg" alt="" />
+                    <img src="../assets/img/icons/location.svg" alt="" />
                     <span>
                       8708 Technology Forest <br className="d-lg-block d-none" />
                       Pl Suite 125 -G, The <br className="d-lg-block d-none" />
@@ -87,7 +87,7 @@ const Footer: React.FC = () => {
                 </li>
                 <li>
                   <Link to="tel:123-456-7890">
-                    <img src="src/assets/img/icons/phone.svg" alt="" />
+                    <img src="../assets/img/icons/phone.svg" alt="" />
                     <span>123-456-7890</span>
                   </Link>
                 </li>
