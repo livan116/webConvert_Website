@@ -81,7 +81,7 @@ const Header: React.FC = () => {
             <div className="header-elements">
               <div className="site-logo">
                 <Link to="/">
-                  <img src="src/assets/img/logo/logo1.png" alt="Logo" />
+                  <img src="../assets/img/logo/logo1.png" alt="Logo" />
                 </Link>
               </div>
               <div className="main-menu">
