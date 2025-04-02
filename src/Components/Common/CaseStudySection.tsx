@@ -5,28 +5,28 @@ import { Link } from "react-router-dom";
 const caseStudies = [
   {
     id: 1,
-    imgSrc: "src/assets/img/all-images/case-img1.png",
+    imgSrc: "../assets/img/all-images/case-img1.png",
     title: "Website Design & Development",
     description: "Digital Art. Illustrations",
     link: "/case-single",
   },
   {
     id: 2,
-    imgSrc: "src/assets/img/all-images/case-img2.png",
+    imgSrc: "../assets/img/all-images/case-img2.png",
     title: "SEO",
     description: "Digital Art. Illustrations",
     link: "/case-single",
   },
   {
     id: 3,
-    imgSrc: "src/assets/img/all-images/case-img3.png",
+    imgSrc: "../assets/img/all-images/case-img3.png",
     title: "PPC Advertising",
     description: "Digital Art. Illustrations",
     link: "/case-single",
   },
   {
     id: 4,
-    imgSrc: "src/assets/img/all-images/case-img4.png",
+    imgSrc: "../assets/img/all-images/case-img4.png",
     title: "Social Media Marketing",
     description: "Digital Art. Illustrations",
     link: "/case-single",
@@ -44,7 +44,7 @@ const CaseStudySection: React.FC<{ btnClass?: string }> = ({ btnClass }) => {
             <div className="case4-header heading8 text-center">
               <h5 data-aos="fade-up" data-aos-duration="1000">
                 <img
-                  src="src/assets/img/icons/logo-icons3.svg"
+                  src="../assets/img/icons/logo-icons3.svg"
                   alt="Logo Icon"
                 />
                 Case Study
@@ -54,7 +54,7 @@ const CaseStudySection: React.FC<{ btnClass?: string }> = ({ btnClass }) => {
                 <span>
                   Case Study{" "}
                   <img
-                    src="src/assets/img/elements/line-img2.png"
+                    src="../assets/img/elements/line-img2.png"
                     alt="Line Element"
                   />
                 </span>
@@ -81,7 +81,7 @@ const CaseStudySection: React.FC<{ btnClass?: string }> = ({ btnClass }) => {
                     <Link to="/case-single">{study.title}</Link>
                   </div>
                   <div className="content-area">
-                    <img src="src/assets/img/icons/case-icon1.svg" alt="" />
+                    <img src="../assets/img/icons/case-icon1.svg" alt="" />
                     <div className="space16"></div>
                     <Link to="/case-single">{study.title}</Link>
                     <p>{study.description}</p>

@@ -23,7 +23,7 @@ const blogs: Blog[] = [
     date: "12 Feb 2024",
     description:
       "Discover the latest trends and best practices in social media marketing with our comprehensive guide. Learn how to leverage different.",
-    imageSrc: "src/assets/img/all-images/blog-img6.png",
+    imageSrc: "../assets/img/all-images/blog-img6.png",
     link: "/blog-single",
     animation: "zoom-out",
     aosDuration: 1000,
@@ -36,7 +36,7 @@ const blogs: Blog[] = [
     date: "12 Feb 2024",
     description:
       "Unlock the secrets to successful content marketing with our expert tips and strategies. Whether you're a beginner or a seasoned marketer.",
-    imageSrc: "src/assets/img/all-images/blog-img7.png",
+    imageSrc: "../assets/img/all-images/blog-img7.png",
     link: "/blog-single",
     animation: "zoom-out",
     aosDuration: 1200,
@@ -52,7 +52,7 @@ const BlogSection: React.FC = () => {
             <div className="blog4-header text-center heading8">
               <h5 data-aos="fade-up" data-aos-duration="1000">
                 <img
-                  src="src/assets/img/icons/logo-icons3.svg"
+                  src="../assets/img/icons/logo-icons3.svg"
                   alt="Logo Icon"
                 />{" "}
                 Blog & News
@@ -62,7 +62,7 @@ const BlogSection: React.FC = () => {
                 <span>
                   Digital Marketing{" "}
                   <img
-                    src="src/assets/img/elements/line-img1.png"
+                    src="../assets/img/elements/line-img1.png"
                     alt="Line Icon"
                   />
                 </span>

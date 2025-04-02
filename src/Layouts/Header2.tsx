@@ -142,7 +142,7 @@ const Header2: React.FC = () => {
             <div className="header-elements">
               <div className="site-logo">
                 <Link to="/">
-                  <img src="src/assets/img/logo/logo2.png" alt="Logo" />
+                  <img src="../assets/img/logo/logo2.png" alt="Logo" />
                 </Link>
               </div>
               <div className="main-menu d-flex align-items-center gap-3">
@@ -160,7 +160,7 @@ const Header2: React.FC = () => {
                                 <div className="homemenu-thumb">
                                   <div className="img1">
                                     <img
-                                      src={`src/assets/img/all-images/${item.imageSrc}`}
+                                      src={`../assets/img/all-images/${item.imageSrc}`}
                                       alt=""
                                     />
                                   </div>

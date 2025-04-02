@@ -18,7 +18,7 @@ const ContactMain: React.FC = () => {
               <div className="number-address-area">
                 <div className="phone-number">
                   <div className="img1">
-                    <img src="src/assets/img/icons/phone3.svg" alt="Phone Icon" />
+                    <img src="../assets/img/icons/phone3.svg" alt="Phone Icon" />
                   </div>
                   <div className="content">
                     <p>Phone Number</p>
@@ -28,7 +28,7 @@ const ContactMain: React.FC = () => {
 
                 <div className="phone-number m-0">
                   <div className="img1">
-                    <img src="src/assets/img/icons/email3.svg" alt="Email Icon" />
+                    <img src="../assets/img/icons/email3.svg" alt="Email Icon" />
                   </div>
                   <div className="content">
                     <p>Email Address</p>
@@ -40,7 +40,7 @@ const ContactMain: React.FC = () => {
               <div className="number-address-area2 ">
                 <div className="phone-number m-0 ">
                   <div className="img1">
-                    <img src="src/assets/img/icons/location3.svg" alt="Location Icon" />
+                    <img src="../assets/img/icons/location3.svg" alt="Location Icon" />
                   </div>
                   <div className="content">
                     <a href="#">

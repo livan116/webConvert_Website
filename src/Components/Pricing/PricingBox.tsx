@@ -31,12 +31,12 @@ const PricingBox: React.FC<PricingBoxProps> = ({
                     {services.map((service, index) => (
                         <li key={index}>
                             <img
-                                src="src/assets/img/icons/check4.svg"
+                                src="../assets/img/icons/check4.svg"
                                 alt=""
                                 className="check2"
                             />
                             <img
-                                src="src/assets/img/icons/check5.svg"
+                                src="../assets/img/icons/check5.svg"
                                 alt=""
                                 className="check3"
                             />

@@ -36,22 +36,22 @@ const HeaderForSingle2: React.FC<{
   useEffect(() => {
     switch (mainClass) {
       case "homepage1":
-        setLogoUrl("src/assets/img/logo/logo1.png");
+        setLogoUrl("../assets/img/logo/logo1.png");
         break;
       case "homepage2":
-        setLogoUrl("src/assets/img/logo/logo2.png");
+        setLogoUrl("../assets/img/logo/logo2.png");
         break;
       case "homepage3":
-        setLogoUrl("src/assets/img/logo/logo4.png");
+        setLogoUrl("../assets/img/logo/logo4.png");
         break;
       case "homepage4":
-        setLogoUrl("src/assets/img/logo/logo5.png");
+        setLogoUrl("../assets/img/logo/logo5.png");
         break;
       case "homepage5":
-        setLogoUrl("src/assets/img/logo/logo6.png");
+        setLogoUrl("../assets/img/logo/logo6.png");
         break;
       default:
-        setLogoUrl("src/assets/img/logo/logo1.png");
+        setLogoUrl("../assets/img/logo/logo1.png");
         break;
     }
   }, []);

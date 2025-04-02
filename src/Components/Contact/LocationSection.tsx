@@ -36,7 +36,7 @@ const LocationBox = ({
     <div className="col-lg-4 col-md-6">
       <div className="location-boxes">
         <div className="img1">
-          <img src="src/assets/img/icons/location3.svg" alt="Location Icon" />
+          <img src="../assets/img/icons/location3.svg" alt="Location Icon" />
         </div>
         <div className="space32"></div>
         <a href="#">

@@ -24,7 +24,7 @@ const SingleHomePage1 = () => {
       <div
         className="all-section-bg"
         style={{
-          backgroundImage: "url(src/assets/img/bg/pages-bg1.png)",
+          backgroundImage: "url(../assets/img/bg/pages-bg1.png)",
           backgroundRepeat: "no-repeat",
           backgroundSize: "cover",
         }}

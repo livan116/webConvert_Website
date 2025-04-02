@@ -54,12 +54,12 @@ const HistorySection: React.FC = () => {
           <div className="col-lg-8 m-auto">
             <div className="history-header-area text-center heading2">
               <img
-                src="src/assets/img/elements/star7.png"
+                src="../assets/img/elements/star7.png"
                 alt=""
                 className="star2 keyframe5"
               />
               <img
-                src="src/assets/img/elements/star7.png"
+                src="../assets/img/elements/star7.png"
                 alt=""
                 className="star3 keyframe5"
               />
@@ -75,12 +75,12 @@ const HistorySection: React.FC = () => {
           <div className="col-lg-6">
             <div className="about-all-images-area">
               <img
-                src="src/assets/img/elements/elements14.png"
+                src="../assets/img/elements/elements14.png"
                 alt=""
                 className="elements12 keyframe5"
               />
               <img
-                src="src/assets/img/elements/elements15.png"
+                src="../assets/img/elements/elements15.png"
                 alt=""
                 className="elements13 keyframe5"
               />
@@ -89,7 +89,7 @@ const HistorySection: React.FC = () => {
                   <div className="img1 image-anime d-md-block d-none">
                     <div className="space100"></div>
                     <img
-                      src="src/assets/img/all-images/history-img1.png"
+                      src="../assets/img/all-images/history-img1.png"
                       alt=""
                     />
                   </div>
@@ -97,7 +97,7 @@ const HistorySection: React.FC = () => {
                 <div className="col-lg-6 col-md-6">
                   <div className="img2 image-anime">
                     <img
-                      src="src/assets/img/all-images/history-img2.png"
+                      src="../assets/img/all-images/history-img2.png"
                       alt=""
                     />
                   </div>

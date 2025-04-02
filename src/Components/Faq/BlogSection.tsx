@@ -24,20 +24,20 @@ const BlogSection: React.FC = () => {
               data-aos-duration="800"
             >
               <div className="img1">
-                <img src="src/assets/img/all-images/blog-img1.png" alt="" />
+                <img src="../assets/img/all-images/blog-img1.png" alt="" />
               </div>
               <div className="content-area">
                 <div className="tags-area">
                   <ul>
                     <li>
                       <Link to="#">
-                        <img src="src/assets/img/icons/contact1.svg" alt="" />
+                        <img src="../assets/img/icons/contact1.svg" alt="" />
                         Ben Stokes
                       </Link>
                     </li>
                     <li>
                       <Link to="#">
-                        <img src="src/assets/img/icons/calender1.svg" alt="" />
+                        <img src="../assets/img/icons/calender1.svg" alt="" />
                         16 August 2023
                       </Link>
                     </li>
@@ -65,20 +65,20 @@ const BlogSection: React.FC = () => {
               data-aos-duration="1000"
             >
               <div className="img1">
-                <img src="src/assets/img/all-images/blog-img2.png" alt="" />
+                <img src="../assets/img/all-images/blog-img2.png" alt="" />
               </div>
               <div className="content-area">
                 <div className="tags-area">
                   <ul>
                     <li>
                       <Link to="#">
-                        <img src="src/assets/img/icons/contact1.svg" alt="" />
+                        <img src="../assets/img/icons/contact1.svg" alt="" />
                         Ben Stokes
                       </Link>
                     </li>
                     <li>
                       <Link to="#">
-                        <img src="src/assets/img/icons/calender1.svg" alt="" />
+                        <img src="../assets/img/icons/calender1.svg" alt="" />
                         16 August 2023
                       </Link>
                     </li>
@@ -106,20 +106,20 @@ const BlogSection: React.FC = () => {
               data-aos-duration="1200"
             >
               <div className="img1">
-                <img src="src/assets/img/all-images/blog-img3.png" alt="" />
+                <img src="../assets/img/all-images/blog-img3.png" alt="" />
               </div>
               <div className="content-area">
                 <div className="tags-area">
                   <ul>
                     <li>
                       <Link to="#">
-                        <img src="src/assets/img/icons/contact1.svg" alt="" />
+                        <img src="../assets/img/icons/contact1.svg" alt="" />
                         Ben Stokes
                       </Link>
                     </li>
                     <li>
                       <Link to="#">
-                        <img src="src/assets/img/icons/calender1.svg" alt="" />
+                        <img src="../assets/img/icons/calender1.svg" alt="" />
                         16 August 2023
                       </Link>
                     </li>

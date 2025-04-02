@@ -85,7 +85,7 @@ const ContactSection: React.FC = () => {
           <div className="col-lg-12 m-auto">
             <div className="contact-header-area text-center heading2">
               <motion.img
-                src="src/assets/img/elements/star2.png"
+                src="../assets/img/elements/star2.png"
                 alt=""
                 className="star2 keyframe5"
                 animate={{
@@ -99,7 +99,7 @@ const ContactSection: React.FC = () => {
                 }}
               />
               <motion.img
-                src="src/assets/img/elements/star2.png"
+                src="../assets/img/elements/star2.png"
                 alt=""
                 className="star3 keyframe5"
                 animate={{
@@ -149,7 +149,7 @@ const ContactSection: React.FC = () => {
               >
                 <div className="icons">
                   <motion.img
-                    src="src/assets/img/icons/location2.svg"
+                    src="../assets/img/icons/location2.svg"
                     alt=""
                     whileHover={{ scale: 1.1, rotate: 5 }}
                     transition={{ duration: 0.6 }}
@@ -174,7 +174,7 @@ const ContactSection: React.FC = () => {
               >
                 <div className="icons">
                   <motion.img
-                    src="src/assets/img/icons/phone2.svg"
+                    src="../assets/img/icons/phone2.svg"
                     alt=""
                     whileHover={{ scale: 1.1, rotate: 5 }}
                     transition={{ duration: 0.6 }}
@@ -198,7 +198,7 @@ const ContactSection: React.FC = () => {
               >
                 <div className="icons">
                   <motion.img
-                    src="src/assets/img/icons/email2.svg"
+                    src="../assets/img/icons/email2.svg"
                     alt=""
                     whileHover={{ scale: 1.1, rotate: 5 }}
                     transition={{ duration: 0.6 }}

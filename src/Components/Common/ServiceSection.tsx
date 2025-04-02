@@ -5,7 +5,7 @@ import { Link } from "react-router-dom";
 const services = [
   {
     id: 1,
-    icon: "src/assets/img/icons/service-icon11.svg",
+    icon: "../assets/img/icons/service-icon11.svg",
     number: "01",
     title: "Search Engine Optimization",
     description:
@@ -14,7 +14,7 @@ const services = [
   },
   {
     id: 2,
-    icon: "src/assets/img/icons/service-icon12.svg",
+    icon: "../assets/img/icons/service-icon12.svg",
     number: "02",
     title: "Pay-Per-Click (PPC) Advertising",
     description:
@@ -23,7 +23,7 @@ const services = [
   },
   {
     id: 3,
-    icon: "src/assets/img/icons/service-icon13.svg",
+    icon: "../assets/img/icons/service-icon13.svg",
     number: "03",
     title: "Social Media Marketing",
     description:
@@ -32,7 +32,7 @@ const services = [
   },
   {
     id: 4,
-    icon: "src/assets/img/icons/service-icon14.svg",
+    icon: "../assets/img/icons/service-icon14.svg",
     number: "04",
     title: "Content Marketing",
     description:
@@ -50,7 +50,7 @@ const ServiceSection: React.FC<{ btnClass?: string }> = ({ btnClass }) => {
             <div className="service4-header heading8 text-center">
               <h5 data-aos="fade-up" data-aos-duration="1000">
                 <img
-                  src="src/assets/img/icons/logo-icons3.svg"
+                  src="../assets/img/icons/logo-icons3.svg"
                   alt="Logo Icon"
                 />
                 Our Service
@@ -60,7 +60,7 @@ const ServiceSection: React.FC<{ btnClass?: string }> = ({ btnClass }) => {
                 <span>
                   Services.{" "}
                   <img
-                    src="src/assets/img/elements/line-img2.png"
+                    src="../assets/img/elements/line-img2.png"
                     alt="Line Element"
                   />
                 </span>
@@ -74,7 +74,7 @@ const ServiceSection: React.FC<{ btnClass?: string }> = ({ btnClass }) => {
               <div className="bg-images">
                 <div className="img1">
                   <img
-                    src="src/assets/img/bg/service-bg1.png"
+                    src="../assets/img/bg/service-bg1.png"
                     alt="Background Image"
                     className="pulse-border"
                   />
@@ -85,7 +85,7 @@ const ServiceSection: React.FC<{ btnClass?: string }> = ({ btnClass }) => {
                   data-aos-duration="1000"
                 >
                   <img
-                    src="src/assets/img/icons/logo-icons4.svg"
+                    src="../assets/img/icons/logo-icons4.svg"
                     alt="Logo Icon"
                   />
                 </div>

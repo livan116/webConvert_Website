@@ -16,7 +16,7 @@ const Preloader: React.FC = () => {
       <div className="loading-container">
         <div className="loading"></div>
         <div id="loading-icon">
-          <img src="src/assets/img/logo/preloader.png" alt="Loading Icon" />
+          <img src="../assets/img/logo/preloader.png" alt="Loading Icon" />
         </div>
       </div>
     </div>

@@ -16,7 +16,7 @@ import singlePageNavLinks from "../../assets/helpers/SinglePageNavLinks";
 const SingleHomePage2 = () => {
   document.body.className = "homepage2-body";
   document.body.style.backgroundImage =
-    "url(src/assets/img/bg/homepage2-bg.png)";
+    "url(../assets/img/bg/homepage2-bg.png)";
   document.body.style.backgroundPosition = "center";
   document.body.style.backgroundRepeat = "no-repeat";
   document.body.style.backgroundSize = "cover";

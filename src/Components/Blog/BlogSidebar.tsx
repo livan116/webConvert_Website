@@ -26,40 +26,40 @@ const BlogSidebar = () => (
         <h3>Recent Post</h3>
         <div className="post-auhtor-area">
           <div className="img1">
-            <img src="src/assets/img/all-images/post-img1.png" alt="" />
+            <img src="../assets/img/all-images/post-img1.png" alt="" />
           </div>
           <div className="content">
-            <Link to="#" className="date"><img src="src/assets/img/icons/calender1.svg" alt="" />16 August 2023</Link>
+            <Link to="#" className="date"><img src="../assets/img/icons/calender1.svg" alt="" />16 August 2023</Link>
             <Link to="#" className="head">The Importance of Responsive Web Design in the Mobile Age</Link>
           </div>
         </div>
 
         <div className="post-auhtor-area box2">
           <div className="img1">
-            <img src="src/assets/img/all-images/post-img2.png" alt="" />
+            <img src="../assets/img/all-images/post-img2.png" alt="" />
           </div>
           <div className="content">
-            <Link to="#" className="date"><img src="src/assets/img/icons/calender1.svg" alt="" />16 August 2023</Link>
+            <Link to="#" className="date"><img src="../assets/img/icons/calender1.svg" alt="" />16 August 2023</Link>
             <Link to="#" className="head">The Power of Content Marketing How to Drive...</Link>
           </div>
         </div>
 
         <div className="post-auhtor-area">
           <div className="img1">
-            <img src="src/assets/img/all-images/post-img3.png" alt="" />
+            <img src="../assets/img/all-images/post-img3.png" alt="" />
           </div>
           <div className="content">
-            <Link to="#" className="date"><img src="src/assets/img/icons/calender1.svg" alt="" />16 August 2023</Link>
+            <Link to="#" className="date"><img src="../assets/img/icons/calender1.svg" alt="" />16 August 2023</Link>
             <Link to="#" className="head">The Power of Social Media Marketing: How to Build Your...</Link>
           </div>
         </div>
 
         <div className="post-auhtor-area">
           <div className="img1">
-            <img src="src/assets/img/all-images/post-img4.png" alt="" />
+            <img src="../assets/img/all-images/post-img4.png" alt="" />
           </div>
           <div className="content">
-            <Link to="#" className="date"><img src="src/assets/img/icons/calender1.svg" alt="" />16 August 2023</Link>
+            <Link to="#" className="date"><img src="../assets/img/icons/calender1.svg" alt="" />16 August 2023</Link>
             <Link to="#" className="head">Social Media Marketing Strategies Drive Engagement..</Link>
           </div>
         </div>

@@ -3,11 +3,11 @@ import { Row } from "react-bootstrap";
 import Slider from "react-slick";
 
 const brandImages = [
-  "src/assets/img/elements/brand-img1.png",
-  "src/assets/img/elements/brand-img2.png",
-  "src/assets/img/elements/brand-img3.png",
-  "src/assets/img/elements/brand-img4.png",
-  "src/assets/img/elements/brand-img5.png",
+  "../assets/img/elements/brand-img1.png",
+  "../assets/img/elements/brand-img2.png",
+  "../assets/img/elements/brand-img3.png",
+  "../assets/img/elements/brand-img4.png",
+  "../assets/img/elements/brand-img5.png",
 ];
 
 const CompanySliderSectionV2: React.FC<{ className: string }> = ({

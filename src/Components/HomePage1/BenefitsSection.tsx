@@ -16,49 +16,49 @@ const caseStudies: CaseStudy[] = [
     title: "Website Design & Development",
     content:
       "We understand the critical role that a well-designed and user-friendly website plays in shaping your online presence driving.",
-    image: "src/assets/img/all-images/case-img1.png",
+    image: "../assets/img/all-images/case-img1.png",
     thumbClass: "",
   },
   {
     title: "SEO",
     content:
       "Boost your visibility and climb the search rankings with our data-driven SEO strategies tailored to your business goals.",
-    image: "src/assets/img/all-images/case-img2.png",
+    image: "../assets/img/all-images/case-img2.png",
     thumbClass: "cs_case_study_thumb2",
   },
   {
     title: "PPC Advertising",
     content:
       "Drive immediate, targeted traffic to your website with our expertly managed pay-per-click campaigns.",
-    image: "src/assets/img/all-images/case-img3.png",
+    image: "../assets/img/all-images/case-img3.png",
     thumbClass: "cs_case_study_thumb3",
   },
   {
     title: "Social Media Marketing",
     content:
       "Build meaningful connections with your audience through strategic social media campaigns that elevate your brand.",
-    image: "src/assets/img/all-images/case-img4.png",
+    image: "../assets/img/all-images/case-img4.png",
     thumbClass: "cs_case_study_thumb4",
   },
   {
     title: "Content Marketing",
     content:
       "Engage and convert your audience with compelling content that tells your story and establishes your authority.",
-    image: "src/assets/img/all-images/case-img5.png",
+    image: "../assets/img/all-images/case-img5.png",
     thumbClass: "cs_case_study_thumb5",
   },
   {
     title: "Email Marketing",
     content:
       "Nurture leads and drive conversions with personalized email campaigns that deliver the right message at the right time.",
-    image: "src/assets/img/all-images/case-img6.png",
+    image: "../assets/img/all-images/case-img6.png",
     thumbClass: "cs_case_study_thumb6",
   },
   {
     title: "Analytics & Reporting",
     content:
       "Make data-driven decisions with comprehensive analytics and clear reporting that track your digital marketing ROI.",
-    image: "src/assets/img/all-images/case-img7.png",
+    image: "../assets/img/all-images/case-img7.png",
     thumbClass: "cs_case_study_thumb7",
   },
 ];
@@ -123,12 +123,12 @@ const BenefitsSection = () => {
           <div className="col-lg-12 m-auto">
             <div className="case-header-area heading2 text-center">
               <img
-                src="src/assets/img/elements/star2.png"
+                src="../assets/img/elements/star2.png"
                 alt=""
                 className="star2 keyframe5"
               />
               <img
-                src="src/assets/img/elements/star2.png"
+                src="../assets/img/elements/star2.png"
                 alt=""
                 className="star3 keyframe5"
               />

@@ -17,7 +17,7 @@ const BlogTopArea: React.FC = () => {
                         <li>
                           <Link to="#">
                             <img
-                              src="src/assets/img/icons/contact1.svg"
+                              src="../assets/img/icons/contact1.svg"
                               alt=""
                             />
                             Ben Stokes
@@ -26,7 +26,7 @@ const BlogTopArea: React.FC = () => {
                         <li>
                           <Link to="#">
                             <img
-                              src="src/assets/img/icons/calender1.svg"
+                              src="../assets/img/icons/calender1.svg"
                               alt=""
                             />
                             16 August 2023
@@ -51,7 +51,7 @@ const BlogTopArea: React.FC = () => {
                 <Col lg={2}></Col>
                 <Col lg={5}>
                   <div className="images image-anime">
-                    <img src="src/assets/img/all-images/blog-img19.png" alt="" />
+                    <img src="../assets/img/all-images/blog-img19.png" alt="" />
                   </div>
                 </Col>
               </Row>

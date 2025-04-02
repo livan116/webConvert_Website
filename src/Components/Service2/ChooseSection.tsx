@@ -4,8 +4,8 @@ import 'bootstrap/dist/js/bootstrap.bundle.min'; // Import Bootstrap JS
 const ChooseSection: React.FC = () => {
   return (
     <div className="choose-section-area sp1">
-      <img src="src/assets/img/bg/cta-bg1.png" alt="Background 1" className="cta-bg1 aniamtion-key-2" />
-      <img src="src/assets/img/bg/cta-bg2.png" alt="Background 2" className="cta-bg2 aniamtion-key-1" />
+      <img src="../assets/img/bg/cta-bg1.png" alt="Background 1" className="cta-bg1 aniamtion-key-2" />
+      <img src="../assets/img/bg/cta-bg2.png" alt="Background 2" className="cta-bg2 aniamtion-key-1" />
       <div className="container">
         <div className="row">
           <div className="col-lg-6 m-auto">
@@ -135,18 +135,18 @@ const ChooseSection: React.FC = () => {
           </div>
           <div className="col-lg-6">
             <div className="about-all-images-area">
-              <img src="src/assets/img/elements/elements14.png" alt="Elements 14" className="elements12 keyframe5" />
-              <img src="src/assets/img/elements/elements15.png" alt="Elements 15" className="elements13 keyframe5" />
+              <img src="../assets/img/elements/elements14.png" alt="Elements 14" className="elements12 keyframe5" />
+              <img src="../assets/img/elements/elements15.png" alt="Elements 15" className="elements13 keyframe5" />
               <div className="row">
                 <div className="col-lg-6 col-md-6">
                   <div className="img1">
                     <div className="space100"></div>
-                    <img src="src/assets/img/all-images/service-img5.png" alt="Service 5" />
+                    <img src="../assets/img/all-images/service-img5.png" alt="Service 5" />
                   </div>
                 </div>
                 <div className="col-lg-6 col-md-6">
                   <div className="img2">
-                    <img src="src/assets/img/all-images/service-img9.png" alt="Service 9" />
+                    <img src="../assets/img/all-images/service-img9.png" alt="Service 9" />
                   </div>
                 </div>
               </div>

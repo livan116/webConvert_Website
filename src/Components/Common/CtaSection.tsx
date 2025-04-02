@@ -6,7 +6,7 @@ const CtaSection: React.FC = () => {
   return (
     <div className="cta-section-area overflow-hidden">
       <motion.img
-        src="src/assets/img/bg/cta-bg1.png"
+        src="../assets/img/bg/cta-bg1.png"
         alt=""
         className="cta-bg1"
         animate={{
@@ -19,7 +19,7 @@ const CtaSection: React.FC = () => {
         }}
       />
       <motion.img
-        src="src/assets/img/bg/cta-bg2.png"
+        src="../assets/img/bg/cta-bg2.png"
         alt=""
         className="cta-bg2"
         animate={{

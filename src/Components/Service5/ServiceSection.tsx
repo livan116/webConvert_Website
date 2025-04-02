@@ -18,7 +18,7 @@ const ServiceSection: React.FC = () => {
               <div className="service-boxarea">
                 <Link to="/service1">Search Engine Optimization ( SEO)</Link>
                 <div className="space40"></div>
-                <img src="src/assets/img/icons/service-icon1.svg" alt="" />
+                <img src="../assets/img/icons/service-icon1.svg" alt="" />
                 <div className="space40"></div>
                 <p>
                   Enhance your online visibility & drive organic traffic with
@@ -30,7 +30,7 @@ const ServiceSection: React.FC = () => {
               <div className="service-boxarea box2">
                 <Link to="/service1">Pay-Per-Click (PPC) Advertising</Link>
                 <div className="space40"></div>
-                <img src="src/assets/img/icons/service-icon2.svg" alt="" />
+                <img src="../assets/img/icons/service-icon2.svg" alt="" />
                 <div className="space40"></div>
                 <p>
                   Reach your audience instantly and drive qualified leads with
@@ -42,7 +42,7 @@ const ServiceSection: React.FC = () => {
               <div className="service-boxarea box3">
                 <Link to="/service1">Social Media Marketing</Link>
                 <div className="space66"></div>
-                <img src="src/assets/img/icons/service-icon3.svg" alt="" />
+                <img src="../assets/img/icons/service-icon3.svg" alt="" />
                 <div className="space40"></div>
                 <p>
                   Build a strong brand presence and engage with your audience on
@@ -54,7 +54,7 @@ const ServiceSection: React.FC = () => {
               <div className="service-boxarea box4">
                 <Link to="/service1">Website Design and Development</Link>
                 <div className="space40"></div>
-                <img src="src/assets/img/icons/service-icon4.svg" alt="" />
+                <img src="../assets/img/icons/service-icon4.svg" alt="" />
                 <div className="space40"></div>
                 <p>
                   Make a lasting impression with a professionally designed and

@@ -304,55 +304,55 @@ const MobileHeaderSidebar: React.FC = () => {
         setBtnClass("header-btn1");
         break;
       case "homepage2-body":
-        setLogoUrl("src/assets/img/logo/logo2.png");
+        setLogoUrl("../assets/img/logo/logo2.png");
         setHeaderClass("mobile-header2");
         setSidebarClass("mobile-sidebar2");
         setBtnClass("header-btn3");
         break;
       case "homepage4-body":
-        setLogoUrl("src/assets/img/logo/logo2.png");
+        setLogoUrl("../assets/img/logo/logo2.png");
         setHeaderClass("mobile-header4");
         setSidebarClass("mobile-sidebar4");
         setBtnClass("header-btn12");
         break;
       case "homepage5-body":
-        setLogoUrl("src/assets/img/logo/logo2.png");
+        setLogoUrl("../assets/img/logo/logo2.png");
         setHeaderClass("mobile-header5");
         setSidebarClass("mobile-sidebar5");
         setBtnClass("header-btn9");
         break;
       case "homepage3-body":
-        setLogoUrl("src/assets/img/logo/logo2.png");
+        setLogoUrl("../assets/img/logo/logo2.png");
         setHeaderClass("mobile-header2");
         setSidebarClass("mobile-sidebar2");
         setBtnClass("header-btn3");
         break;
       case "homepage7-body":
-        setLogoUrl("src/assets/img/logo/logo2.png");
+        setLogoUrl("../assets/img/logo/logo2.png");
         setHeaderClass("mobile-header7");
         setSidebarClass("mobile-sidebar7");
         setBtnClass("header-btn13");
         break;
       case "homepage8-body":
-        setLogoUrl("src/assets/img/logo/logo9.png");
+        setLogoUrl("../assets/img/logo/logo9.png");
         setHeaderClass("mobile-header8");
         setSidebarClass("mobile-sidebar8");
         setBtnClass("header-btn15");
         break;
       case "homepage9-body":
-        setLogoUrl("src/assets/img/logo/logo10.png");
+        setLogoUrl("../assets/img/logo/logo10.png");
         setHeaderClass("mobile-header9");
         setSidebarClass("mobile-sidebar9");
         setBtnClass("header-btn16");
         break;
       case "homepage10-body":
-        setLogoUrl("src/assets/img/logo/logo11.png");
+        setLogoUrl("../assets/img/logo/logo11.png");
         setHeaderClass("mobile-header10");
         setSidebarClass("mobile-sidebar10");
         setBtnClass("header-btn17");
         break;
       default:
-        setLogoUrl("src/assets/img/logo/logo1.png");
+        setLogoUrl("../assets/img/logo/logo1.png");
         setHeaderClass("mobile-header1");
         setSidebarClass("sidebarClass");
         setBtnClass("header-btn1");

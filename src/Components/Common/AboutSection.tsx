@@ -11,12 +11,12 @@ const AboutSection: React.FC<{ btnClass?: string }> = ({ btnClass }) => {
             <div className="about-images">
               <figure className="image-anime">
                 <img
-                  src="src/assets/img/all-images/about-img1.png"
+                  src="../assets/img/all-images/about-img1.png"
                   alt="About Image 1"
                 />
               </figure>
               <img
-                src="src/assets/img/elements/star1.png"
+                src="../assets/img/elements/star1.png"
                 alt="Star Element"
                 className="star1 keyframe5"
               />
@@ -27,12 +27,12 @@ const AboutSection: React.FC<{ btnClass?: string }> = ({ btnClass }) => {
               <div className="arrow-circle">
                 <Link to="/about">
                   <img
-                    src="src/assets/img/elements/elements4.png"
+                    src="../assets/img/elements/elements4.png"
                     alt="Arrow Element"
                     className="elements4 keyframe5"
                   />
                   <img
-                    src="src/assets/img/icons/arrow.svg"
+                    src="../assets/img/icons/arrow.svg"
                     alt="Arrow Icon"
                     className="arrow"
                   />
@@ -41,7 +41,7 @@ const AboutSection: React.FC<{ btnClass?: string }> = ({ btnClass }) => {
               <br />
               <h5>
                 <img
-                  src="src/assets/img/icons/logo-icons3.svg"
+                  src="../assets/img/icons/logo-icons3.svg"
                   alt="Logo Icon"
                 />
                 About SEOC
@@ -51,7 +51,7 @@ const AboutSection: React.FC<{ btnClass?: string }> = ({ btnClass }) => {
                 <span>
                   Digital Marketing{" "}
                   <img
-                    src="src/assets/img/elements/line-img2.png"
+                    src="../assets/img/elements/line-img2.png"
                     alt="Line Element"
                   />
                 </span>{" "}
@@ -80,13 +80,13 @@ const AboutSection: React.FC<{ btnClass?: string }> = ({ btnClass }) => {
           <Col lg={3}>
             <div className="about-auhtor-images">
               <img
-                src="src/assets/img/elements/elements5.png"
+                src="../assets/img/elements/elements5.png"
                 alt="Elements 5"
                 className="elements5 keyframe5"
               />
               <figure className="image-anime">
                 <img
-                  src="src/assets/img/all-images/about-img2.png"
+                  src="../assets/img/all-images/about-img2.png"
                   alt="About Image 2"
                 />
               </figure>

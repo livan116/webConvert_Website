@@ -16,8 +16,8 @@ const skills: Skill[] = [
 const SkillsSection: React.FC = () => {
     return (
         <div className="skills-section-area sp2">
-            <img src="src/assets/img/bg/cta-bg1.png" alt="" className="cta-bg1 aniamtion-key-2" />
-            <img src="src/assets/img/bg/cta-bg2.png" alt="" className="cta-bg2 aniamtion-key-1" />
+            <img src="../assets/img/bg/cta-bg1.png" alt="" className="cta-bg1 aniamtion-key-2" />
+            <img src="../assets/img/bg/cta-bg2.png" alt="" className="cta-bg2 aniamtion-key-1" />
             <div className="container">
                 <div className="row">
                     <div className="col-lg-3 m-auto">

@@ -60,7 +60,7 @@ const GoogleReviewsV2: React.FC<{ className: string }> = ({ className }) => {
                             <Link to="/team">{testimonial.name}</Link>
                           </div>
                           <img
-                            src="src/assets/img/icons/google.svg"
+                            src="../assets/img/icons/google.svg"
                             alt="Google"
                           />
                         </div>
@@ -89,17 +89,17 @@ const testimonials = [
   {
     text: "Working with SEOC has been a game-changer for our business. Their expertise in SEO and digital marketing has helped us achieve remarkable results and significantly increase our online visibility.",
     name: "John Doe",
-    image: "src/assets/img/all-images/testimonial-img1.png",
+    image: "../assets/img/all-images/testimonial-img1.png",
   },
   {
     text: "Working with SEOC has been a game-changer for our business. Their expertise in SEO and digital marketing has helped us achieve remarkable results and significantly increase our online visibility.",
     name: "John Doe",
-    image: "src/assets/img/all-images/testimonial-img2.png",
+    image: "../assets/img/all-images/testimonial-img2.png",
   },
   {
     text: "Working with SEOC has been a game-changer for our business. Their expertise in SEO and digital marketing has helped us achieve remarkable results and significantly increase our online visibility.",
     name: "John Doe",
-    image: "src/assets/img/all-images/testimonial-img2.png",
+    image: "../assets/img/all-images/testimonial-img2.png",
   },
 ];
 

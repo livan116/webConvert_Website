@@ -41,12 +41,12 @@ const BlogSection: React.FC = () => {
           <div className="col-lg-12 m-auto">
             <div className="blog-header-area heading2 text-center">
               <img
-                src="src/assets/img/elements/star2.png"
+                src="../assets/img/elements/star2.png"
                 alt=""
                 className="star2 keyframe5"
               />
               <img
-                src="src/assets/img/elements/star2.png"
+                src="../assets/img/elements/star2.png"
                 alt=""
                 className="star3 keyframe5"
               />
@@ -84,20 +84,20 @@ const BlogSection: React.FC = () => {
               <div className="blog-slide">
                 <div className="blog-author-boxarea">
                   <div className="img1">
-                    <img src="src/assets/img/all-images/blog-img1.png" alt="" />
+                    <img src="../assets/img/all-images/blog-img1.png" alt="" />
                   </div>
                   <div className="content-area">
                     <div className="tags-area">
                       <ul>
                         <li>
                           <Link to="#">
-                            <img src="src/assets/img/icons/contact1.svg" alt="" />
+                            <img src="../assets/img/icons/contact1.svg" alt="" />
                             Ben Stokes
                           </Link>
                         </li>
                         <li>
                           <Link to="#">
-                            <img src="src/assets/img/icons/calender1.svg" alt="" />
+                            <img src="../assets/img/icons/calender1.svg" alt="" />
                             16 August 2023
                           </Link>
                         </li>
@@ -120,20 +120,20 @@ const BlogSection: React.FC = () => {
               <div className="blog-slide">
                 <div className="blog-author-boxarea">
                   <div className="img1">
-                    <img src="src/assets/img/all-images/blog-img2.png" alt="" />
+                    <img src="../assets/img/all-images/blog-img2.png" alt="" />
                   </div>
                   <div className="content-area">
                     <div className="tags-area">
                       <ul>
                         <li>
                           <Link to="#">
-                            <img src="src/assets/img/icons/contact1.svg" alt="" />
+                            <img src="../assets/img/icons/contact1.svg" alt="" />
                             Ben Stokes
                           </Link>
                         </li>
                         <li>
                           <Link to="#">
-                            <img src="src/assets/img/icons/calender1.svg" alt="" />
+                            <img src="../assets/img/icons/calender1.svg" alt="" />
                             16 August 2023
                           </Link>
                         </li>
@@ -156,20 +156,20 @@ const BlogSection: React.FC = () => {
               <div className="blog-slide">
                 <div className="blog-author-boxarea">
                   <div className="img1">
-                    <img src="src/assets/img/all-images/blog-img3.png" alt="" />
+                    <img src="../assets/img/all-images/blog-img3.png" alt="" />
                   </div>
                   <div className="content-area">
                     <div className="tags-area">
                       <ul>
                         <li>
                           <Link to="#">
-                            <img src="src/assets/img/icons/contact1.svg" alt="" />
+                            <img src="../assets/img/icons/contact1.svg" alt="" />
                             Ben Stokes
                           </Link>
                         </li>
                         <li>
                           <Link to="#">
-                            <img src="src/assets/img/icons/calender1.svg" alt="" />
+                            <img src="../assets/img/icons/calender1.svg" alt="" />
                             16 August 2023
                           </Link>
                         </li>

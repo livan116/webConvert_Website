@@ -10,19 +10,19 @@ const PageHero: React.FC<{
     <div
       className={className || ""}
       style={{
-        backgroundImage: "url(src/assets/img/bg/inner-header.png)",
+        backgroundImage: "url(../assets/img/bg/inner-header.png)",
         backgroundRepeat: "no-repeat",
         backgroundSize: "cover",
         backgroundPosition: "center",
       }}
     >
       <img
-        src="src/assets/img/elements/elements1.png"
+        src="../assets/img/elements/elements1.png"
         alt=""
         className="elements1 aniamtion-key-1"
       />
       <img
-        src="src/assets/img/elements/star2.png"
+        src="../assets/img/elements/star2.png"
         alt=""
         className="star2 keyframe5"
       />

@@ -22,12 +22,12 @@ const AboutSection: React.FC = () => {
                 viewport={{ once: true, margin: "-100px" }}
               >
                 <img
-                  src="src/assets/img/all-images/about-img1.png"
+                  src="../assets/img/all-images/about-img1.png"
                   alt="About"
                 />
               </motion.figure>
               <motion.img
-                src="src/assets/img/elements/star1.png"
+                src="../assets/img/elements/star1.png"
                 alt="Star"
                 className="star1"
                 animate={{
@@ -50,7 +50,7 @@ const AboutSection: React.FC = () => {
               >
                 <Link to="/about">
                   <motion.img
-                    src="src/assets/img/elements/elements4.png"
+                    src="../assets/img/elements/elements4.png"
                     alt="Element"
                     className="elements4"
                     animate={{
@@ -63,7 +63,7 @@ const AboutSection: React.FC = () => {
                     }}
                   />
                   <motion.img
-                    src="src/assets/img/icons/arrow.svg"
+                    src="../assets/img/icons/arrow.svg"
                     alt="Arrow"
                     className="arrow"
                     whileHover={{ x: 5 }}
@@ -116,7 +116,7 @@ const AboutSection: React.FC = () => {
           <div className="col-lg-3">
             <div className="about-auhtor-images">
               <motion.img
-                src="src/assets/img/elements/elements5.png"
+                src="../assets/img/elements/elements5.png"
                 alt="Element"
                 className="elements5"
                 animate={{
@@ -141,7 +141,7 @@ const AboutSection: React.FC = () => {
                 viewport={{ once: true, margin: "-100px" }}
               >
                 <img
-                  src="src/assets/img/all-images/about-img2.png"
+                  src="../assets/img/all-images/about-img2.png"
                   alt="About Author"
                 />
               </motion.figure>

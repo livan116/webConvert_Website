@@ -23,7 +23,7 @@ const TeamMemberCard = ({
         <ul
           style={{
             backgroundImage: blurBackground
-              ? "url(src/assets/img/bg/iconsbg.png)"
+              ? "url(../assets/img/bg/iconsbg.png)"
               : "",
             display: "flex",
             justifyContent: "center",

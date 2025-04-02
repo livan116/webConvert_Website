@@ -76,7 +76,7 @@ const PricingSection: React.FC = () => {
             <div className="pricing-header heading8 text-center">
               <h5 data-aos="fade-up" data-aos-duration="1000">
                 <img
-                  src="src/assets/img/icons/logo-icons3.svg"
+                  src="../assets/img/icons/logo-icons3.svg"
                   alt="Logo Icon"
                 />
                 Pricing & Plan
@@ -86,7 +86,7 @@ const PricingSection: React.FC = () => {
                 <span>
                   Pricing Plan{" "}
                   <img
-                    src="src/assets/img/elements/line-img2.png"
+                    src="../assets/img/elements/line-img2.png"
                     alt="Line Icon"
                   />
                 </span>
@@ -124,12 +124,12 @@ const PricingSection: React.FC = () => {
                     {plan.features.map((feature, index) => (
                       <li key={index}>
                         <img
-                          src="src/assets/img/icons/check2.svg"
+                          src="../assets/img/icons/check2.svg"
                           alt="Check Icon 2"
                           className="check2"
                         />
                         <img
-                          src="src/assets/img/icons/check3.svg"
+                          src="../assets/img/icons/check3.svg"
                           alt="Check Icon 3"
                           className="check3"
                         />

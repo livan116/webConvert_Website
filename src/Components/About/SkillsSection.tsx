@@ -27,12 +27,12 @@ const SkillsSection: React.FC = () => {
   return (
     <div className="skills-section-area sp2">
       <img
-        src="src/assets/img/bg/cta-bg1.png"
+        src="../assets/img/bg/cta-bg1.png"
         alt=""
         className="cta-bg1 aniamtion-key-2"
       />
       <img
-        src="src/assets/img/bg/cta-bg2.png"
+        src="../assets/img/bg/cta-bg2.png"
         alt=""
         className="cta-bg2 aniamtion-key-1"
       />

@@ -10,7 +10,7 @@ const ServiceSection2: React.FC<{ className: string }> = ({ className }) => {
           <div className="col-lg-12 m-auto">
             <div className="service2-header heading2 text-center">
               <motion.img
-                src="src/assets/img/elements/star2.png"
+                src="../assets/img/elements/star2.png"
                 alt=""
                 className="star2"
                 animate={{
@@ -23,7 +23,7 @@ const ServiceSection2: React.FC<{ className: string }> = ({ className }) => {
                 }}
               />
               <motion.img
-                src="src/assets/img/elements/star2.png"
+                src="../assets/img/elements/star2.png"
                 alt=""
                 className="star3"
                 animate={{
@@ -69,7 +69,7 @@ const ServiceSection2: React.FC<{ className: string }> = ({ className }) => {
               viewport={{ once: true, margin: "-100px" }}
             >
               <div className="img1">
-                <img src="src/assets/img/all-images/service-img1.png" alt="" />
+                <img src="../assets/img/all-images/service-img1.png" alt="" />
               </div>
               <div className="content-area">
                 <h5>Our Value</h5>

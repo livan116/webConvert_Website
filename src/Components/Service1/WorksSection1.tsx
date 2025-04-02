@@ -19,7 +19,7 @@ const WorksSection1: React.FC = () => {
               <div className="works-content-box">
                 <div className="icons">
                   <img
-                    src="src/assets/img/icons/works-icons7.svg"
+                    src="../assets/img/icons/works-icons7.svg"
                     alt="Proven Result"
                   />
                 </div>
@@ -36,7 +36,7 @@ const WorksSection1: React.FC = () => {
               <div className="works-content-box">
                 <div className="icons">
                   <img
-                    src="src/assets/img/icons/works-icons8.svg"
+                    src="../assets/img/icons/works-icons8.svg"
                     alt="Customized Solutions"
                   />
                 </div>
@@ -53,7 +53,7 @@ const WorksSection1: React.FC = () => {
               <div className="works-content-box">
                 <div className="icons">
                   <img
-                    src="src/assets/img/icons/works-icons9.svg"
+                    src="../assets/img/icons/works-icons9.svg"
                     alt="Dedicated Support"
                   />
                 </div>
@@ -71,12 +71,12 @@ const WorksSection1: React.FC = () => {
           <div className="col-lg-6">
             <div className="about-all-images-area">
               <img
-                src="src/assets/img/elements/elements14.png"
+                src="../assets/img/elements/elements14.png"
                 alt="Element 14"
                 className="elements12 keyframe5"
               />
               <img
-                src="src/assets/img/elements/elements15.png"
+                src="../assets/img/elements/elements15.png"
                 alt="Element 15"
                 className="elements13 keyframe5"
               />
@@ -85,7 +85,7 @@ const WorksSection1: React.FC = () => {
                   <div className="img1 image-anime">
                     <div className="space100"></div>
                     <img
-                      src="src/assets/img/all-images/about-img6.png"
+                      src="../assets/img/all-images/about-img6.png"
                       alt="About Img 6"
                     />
                   </div>
@@ -93,7 +93,7 @@ const WorksSection1: React.FC = () => {
                 <div className="col-lg-6 col-md-6">
                   <div className="img2 image-anime">
                     <img
-                      src="src/assets/img/all-images/about-img5.png"
+                      src="../assets/img/all-images/about-img5.png"
                       alt="About Img 5"
                     />
                   </div>

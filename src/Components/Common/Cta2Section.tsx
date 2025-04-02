@@ -6,12 +6,12 @@ const Cta2Section: React.FC<{ btnClass?: string }> = ({ btnClass }) => {
   return (
     <div className="cta4-section-area">
       <img
-        src="src/assets/img/bg/cta-bg5.png"
+        src="../assets/img/bg/cta-bg5.png"
         alt="Background 1"
         className="cta-bg1 animation-key-2"
       />
       <img
-        src="src/assets/img/bg/cta-bg4.png"
+        src="../assets/img/bg/cta-bg4.png"
         alt="Background 2"
         className="cta-bg2 animation-key-1"
       />

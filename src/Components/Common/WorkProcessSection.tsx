@@ -5,7 +5,7 @@ import { Link } from "react-router-dom";
 const workProcesses = [
   {
     id: 1,
-    imgSrc: "src/assets/img/icons/works-icon4.svg",
+    imgSrc: "../assets/img/icons/works-icon4.svg",
     title: "Strategy Development",
     description:
       "Based on our findings, we develop customized digital marketing strategy tailored objective.",
@@ -14,7 +14,7 @@ const workProcesses = [
   },
   {
     id: 2,
-    imgSrc: "src/assets/img/icons/works-icon5.svg",
+    imgSrc: "../assets/img/icons/works-icon5.svg",
     title: "Monitoring & Optimization",
     description:
       "We believe in the power of data-driven decision-making. Throughout the campaign.",
@@ -23,7 +23,7 @@ const workProcesses = [
   },
   {
     id: 3,
-    imgSrc: "src/assets/img/icons/works-icon6.svg",
+    imgSrc: "../assets/img/icons/works-icon6.svg",
     title: "Continuous Improvement",
     description:
       "Digital marketing is an ever-evolving field, and we're committed to staying ahead of the SEOC curve.",
@@ -41,7 +41,7 @@ const WorkProcessSection: React.FC<{ btnClass?: string }> = ({ btnClass }) => {
             <div className="works4-header heading8">
               <h5 data-aos="fade-up" data-aos-duration="800">
                 <img
-                  src="src/assets/img/icons/logo-icons3.svg"
+                  src="../assets/img/icons/logo-icons3.svg"
                   alt="Logo Icon"
                 />
                 Work Process
@@ -51,7 +51,7 @@ const WorkProcessSection: React.FC<{ btnClass?: string }> = ({ btnClass }) => {
                 <span>
                   Marketing Success{" "}
                   <img
-                    src="src/assets/img/elements/line-img1.png"
+                    src="../assets/img/elements/line-img1.png"
                     alt="Line Element"
                   />
                 </span>
@@ -82,7 +82,7 @@ const WorkProcessSection: React.FC<{ btnClass?: string }> = ({ btnClass }) => {
             <div className="case-images">
               <figure className="image-anime">
                 <img
-                  src="src/assets/img/all-images/case-img8.png"
+                  src="../assets/img/all-images/case-img8.png"
                   alt="Case Image"
                 />
               </figure>

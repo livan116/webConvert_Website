@@ -8,22 +8,22 @@ const testimonials = [
     content: `"I can't say enough about the incredible results we've achieved with SEOC. Their SEO expertise has catapulted our website to the top of search engine rankings, resulting in a significant increase in organic traffic and leads. I highly recommend SEOC to any business looking to boost their visibility and drive growth online."`,
     name: "Anderson Belly",
     position: "Head Of Google Ads",
-    icon: "src/assets/img/icons/quito3.svg",
-    image: "src/assets/img/all-images/testimonial-img10.png",
+    icon: "../assets/img/icons/quito3.svg",
+    image: "../assets/img/all-images/testimonial-img10.png",
   },
   {
     content: `"I can't say enough about the incredible results we've achieved with SEOC. Their SEO expertise has catapulted our website to the top of search engine rankings, resulting in a significant increase in organic traffic and leads. I highly recommend SEOC to any business looking to boost their visibility and drive growth online."`,
     name: "Anderson Stacy",
     position: "Head Of Google Ads",
-    icon: "src/assets/img/icons/quito3.svg",
-    image: "src/assets/img/all-images/testimonial-img10.png",
+    icon: "../assets/img/icons/quito3.svg",
+    image: "../assets/img/all-images/testimonial-img10.png",
   },
   {
     content: `"I can't say enough about the incredible results we've achieved with SEOC. Their SEO expertise has catapulted our website to the top of search engine rankings, resulting in a significant increase in organic traffic and leads. I highly recommend SEOC to any business looking to boost their visibility and drive growth online."`,
     name: "Anderson Sara",
     position: "Head Of Google Ads",
-    icon: "src/assets/img/icons/quito3.svg",
-    image: "src/assets/img/all-images/testimonial-img10.png",
+    icon: "../assets/img/icons/quito3.svg",
+    image: "../assets/img/all-images/testimonial-img10.png",
   },
 ];
 

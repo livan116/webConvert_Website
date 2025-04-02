@@ -9,18 +9,18 @@ const WorksSection: React.FC = () => {
                     <div className="col-lg-1"></div>
                     <div className="col-lg-6">
                         <div className="about-all-images-area">
-                            <img src="src/assets/img/elements/elements14.png" alt="" className="elements12 keyframe5" />
-                            <img src="src/assets/img/elements/elements15.png" alt="" className="elements13 keyframe5" />
+                            <img src="../assets/img/elements/elements14.png" alt="" className="elements12 keyframe5" />
+                            <img src="../assets/img/elements/elements15.png" alt="" className="elements13 keyframe5" />
                             <div className="row">
                                 <div className="col-lg-6 col-md-6">
                                     <div className="img1">
                                         <div className="space100"></div>
-                                        <img src="src/assets/img/all-images/about-img6.png" alt="" />
+                                        <img src="../assets/img/all-images/about-img6.png" alt="" />
                                     </div>
                                 </div>
                                 <div className="col-lg-6 col-md-6">
                                     <div className="img2">
-                                        <img src="src/assets/img/all-images/service-img5.png" alt="" />
+                                        <img src="../assets/img/all-images/service-img5.png" alt="" />
                                     </div>
                                 </div>
                             </div>
@@ -53,18 +53,18 @@ const WorksSection: React.FC = () => {
                     </div>
                     <div className="col-lg-6">
                         <div className="about-all-images-area">
-                            <img src="src/assets/img/elements/elements14.png" alt="" className="elements12 keyframe5" />
-                            <img src="src/assets/img/elements/elements15.png" alt="" className="elements13 keyframe5" />
+                            <img src="../assets/img/elements/elements14.png" alt="" className="elements12 keyframe5" />
+                            <img src="../assets/img/elements/elements15.png" alt="" className="elements13 keyframe5" />
                             <div className="row">
                                 <div className="col-lg-6 col-md-6">
                                     <div className="img1">
                                         <div className="space100"></div>
-                                        <img src="src/assets/img/all-images/service-img6.png" alt="" />
+                                        <img src="../assets/img/all-images/service-img6.png" alt="" />
                                     </div>
                                 </div>
                                 <div className="col-lg-6 col-md-6">
                                     <div className="img2">
-                                        <img src="src/assets/img/all-images/service-img7.png" alt="" />
+                                        <img src="../assets/img/all-images/service-img7.png" alt="" />
                                     </div>
                                 </div>
                             </div>
@@ -81,18 +81,18 @@ const WorksSection: React.FC = () => {
                     <div className="col-lg-1"></div>
                     <div className="col-lg-6">
                         <div className="about-all-images-area">
-                            <img src="src/assets/img/elements/elements14.png" alt="" className="elements12 keyframe5" />
-                            <img src="src/assets/img/elements/elements15.png" alt="" className="elements13 keyframe5" />
+                            <img src="../assets/img/elements/elements14.png" alt="" className="elements12 keyframe5" />
+                            <img src="../assets/img/elements/elements15.png" alt="" className="elements13 keyframe5" />
                             <div className="row">
                                 <div className="col-lg-6 col-md-6">
                                     <div className="img1">
                                         <div className="space100"></div>
-                                        <img src="src/assets/img/all-images/service-img8.png" alt="" />
+                                        <img src="../assets/img/all-images/service-img8.png" alt="" />
                                     </div>
                                 </div>
                                 <div className="col-lg-6 col-md-6">
                                     <div className="img2">
-                                        <img src="src/assets/img/all-images/service-img9.png" alt="" />
+                                        <img src="../assets/img/all-images/service-img9.png" alt="" />
                                     </div>
                                 </div>
                             </div>

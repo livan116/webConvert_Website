@@ -7,7 +7,7 @@ const ServiceInnerHeader: React.FC = () => {
         <div className="row align-items-center">
           <div className="col-lg-6">
             <div className="service-images">
-              <img src="src/assets/img/all-images/service-img10.png" alt="" />
+              <img src="../assets/img/all-images/service-img10.png" alt="" />
             </div>
           </div>
           <div className="col-lg-6">

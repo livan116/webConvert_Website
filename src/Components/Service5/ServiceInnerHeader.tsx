@@ -3,16 +3,16 @@ import { Link } from "react-router-dom";
 const ServiceInner5Header: React.FC = () => {
   return (
     <div className="service-inner2-section-area sp8">
-    <img src="src/assets/img/elements/instagram1.png" alt="" className="instagram1"/>
-    <img src="src/assets/img/elements/linkedin1.png" alt="" className="linkedin1"/>
+    <img src="../assets/img/elements/instagram1.png" alt="" className="instagram1"/>
+    <img src="../assets/img/elements/linkedin1.png" alt="" className="linkedin1"/>
     <div className="container">
         <div className="row align-items-center">
             <div className="col-lg-6">
                 <div className="service-images">
-                    <img src="src/assets/img/elements/facebook1.png" alt="" className="facebook1"/>
-                   <img src="src/assets/img/elements/twitter1.png" alt="" className="twitter1"/>
-                    <img src="src/assets/img/all-images/service-img11.png" alt=""/>
-                    <img src="src/assets/img/bg/inner-bg1.png" alt="" className="inner-bg1"/>
+                    <img src="../assets/img/elements/facebook1.png" alt="" className="facebook1"/>
+                   <img src="../assets/img/elements/twitter1.png" alt="" className="twitter1"/>
+                    <img src="../assets/img/all-images/service-img11.png" alt=""/>
+                    <img src="../assets/img/bg/inner-bg1.png" alt="" className="inner-bg1"/>
                 </div>
             </div>
             <div className="col-lg-5">

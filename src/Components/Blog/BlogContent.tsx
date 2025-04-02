@@ -10,9 +10,9 @@ const tags = [
 ];
 
 const socialLinks = [
-  { src: "src/assets/img/icons/facebook.svg", alt: "Facebook" },
-  { src: "src/assets/img/icons/instagram.svg", alt: "Instagram" },
-  { src: "src/assets/img/icons/linkedin.svg", alt: "LinkedIn" },
+  { src: "../assets/img/icons/facebook.svg", alt: "Facebook" },
+  { src: "../assets/img/icons/instagram.svg", alt: "Instagram" },
+  { src: "../assets/img/icons/linkedin.svg", alt: "LinkedIn" },
 ];
 
 const BlogContent: React.FC = () => (
@@ -22,13 +22,13 @@ const BlogContent: React.FC = () => (
         <ul>
           <li>
             <Link to="#">
-              <img src="src/assets/img/icons/contact1.svg" alt="Author" /> Ben
+              <img src="../assets/img/icons/contact1.svg" alt="Author" /> Ben
               Stokes
             </Link>
           </li>
           <li>
             <Link to="#">
-              <img src="src/assets/img/icons/calender1.svg" alt="Date" /> 16
+              <img src="../assets/img/icons/calender1.svg" alt="Date" /> 16
               August 2023
             </Link>
           </li>
@@ -40,7 +40,7 @@ const BlogContent: React.FC = () => (
       </h2>
       <div className="space34"></div>
       <div className="img1">
-        <img src="src/assets/img/all-images/blog-img23.png" alt="Blog" />
+        <img src="../assets/img/all-images/blog-img23.png" alt="Blog" />
       </div>
       <div className="space24"></div>
       <p>
@@ -67,7 +67,7 @@ const BlogContent: React.FC = () => (
       {keyComponents.map((item, index) => (
         <div className="right-area" key={index}>
           <div className="check1">
-            <img src="src/assets/img/icons/check4.svg" alt="Check" />
+            <img src="../assets/img/icons/check4.svg" alt="Check" />
           </div>
           <div className="content">
             <p>
@@ -78,14 +78,14 @@ const BlogContent: React.FC = () => (
       ))}
       <div className="space50"></div>
       <div className="img1">
-        <img src="src/assets/img/all-images/blog-img20.png" alt="Blog" />
+        <img src="../assets/img/all-images/blog-img20.png" alt="Blog" />
       </div>
       <div className="space50"></div>
       <h3>Strategies for Maximizing PPC ROI</h3>
       {strategies.map((item, index) => (
         <div className="right-area" key={index}>
           <div className="check1">
-            <img src="src/assets/img/icons/check4.svg" alt="Check" />
+            <img src="../assets/img/icons/check4.svg" alt="Check" />
           </div>
           <div className="content">
             <p><span>{item.title}:</span> {item.description}</p>
@@ -96,7 +96,7 @@ const BlogContent: React.FC = () => (
       <div className="pera-box">
         <p>"PPC advertising is like a well-tuned engine: with the right fuel, maintenance, and strategy, it can propel your business forward at unprecedented speeds."</p>
         <div className="space16"></div>
-        <Link to="#"><img src="src/assets/img/icons/instagram.svg" alt="Instagram" /></Link>
+        <Link to="#"><img src="../assets/img/icons/instagram.svg" alt="Instagram" /></Link>
       </div>
       <div className="space50"></div>
       <h3>Hire a Team of Expert Marketers to Handle the Research and Video Creation Process For You</h3>
@@ -127,7 +127,7 @@ const BlogContent: React.FC = () => (
         <div className="comments-boxes">
           <div className="comments-author-box">
             <div className="img3">
-              <img src="src/assets/img/all-images/comments-img1.png" alt="Commenter" />
+              <img src="../assets/img/all-images/comments-img1.png" alt="Commenter" />
             </div>
             <div className="content">
               <Link to="#" className="name">Mr. Ana Ritchie</Link>
@@ -144,7 +144,7 @@ const BlogContent: React.FC = () => (
         <div className="comments-boxes">
           <div className="comments-author-box">
             <div className="img3">
-              <img src="src/assets/img/all-images/comments-img2.png" alt="Commenter" />
+              <img src="../assets/img/all-images/comments-img2.png" alt="Commenter" />
             </div>
             <div className="content">
               <Link to="#" className="name">Matthew Kuhnemann</Link>

@@ -28,9 +28,9 @@ const comparisonData: ComparisonData[] = [
   // Weekly Reporting
   {
     feature: "Weekly Reporting",
-    basicPlan: <img src="src/assets/img/icons/check4.svg" alt="" />,
-    standardPlan: <img src="src/assets/img/icons/check4.svg" alt="" />,
-    premiumPlan: <img src="src/assets/img/icons/check4.svg" alt="" />,
+    basicPlan: <img src="../assets/img/icons/check4.svg" alt="" />,
+    standardPlan: <img src="../assets/img/icons/check4.svg" alt="" />,
+    premiumPlan: <img src="../assets/img/icons/check4.svg" alt="" />,
   },
 
   // Support
@@ -44,9 +44,9 @@ const comparisonData: ComparisonData[] = [
   // Customized Presentation
   {
     feature: "Customized Presentation",
-    basicPlan: <img src="src/assets/img/icons/check4.svg" alt="" />,
-    standardPlan: <img src="src/assets/img/icons/check4.svg" alt="" />,
-    premiumPlan: <img src="src/assets/img/icons/check4.svg" alt="" />,
+    basicPlan: <img src="../assets/img/icons/check4.svg" alt="" />,
+    standardPlan: <img src="../assets/img/icons/check4.svg" alt="" />,
+    premiumPlan: <img src="../assets/img/icons/check4.svg" alt="" />,
   },
 
   // On-Page Optimization
@@ -60,33 +60,33 @@ const comparisonData: ComparisonData[] = [
   // Website Analysis
   {
     feature: "Website Analysis",
-    basicPlan: <img src="src/assets/img/icons/check4.svg" alt="" />,
-    standardPlan: <img src="src/assets/img/icons/check4.svg" alt="" />,
-    premiumPlan: <img src="src/assets/img/icons/check4.svg" alt="" />,
+    basicPlan: <img src="../assets/img/icons/check4.svg" alt="" />,
+    standardPlan: <img src="../assets/img/icons/check4.svg" alt="" />,
+    premiumPlan: <img src="../assets/img/icons/check4.svg" alt="" />,
   },
 
   // Competitor Analysis
   {
     feature: "Competitor Analysis",
-    basicPlan: <img src="src/assets/img/icons/check4.svg" alt="" />,
-    standardPlan: <img src="src/assets/img/icons/check4.svg" alt="" />,
-    premiumPlan: <img src="src/assets/img/icons/check4.svg" alt="" />,
+    basicPlan: <img src="../assets/img/icons/check4.svg" alt="" />,
+    standardPlan: <img src="../assets/img/icons/check4.svg" alt="" />,
+    premiumPlan: <img src="../assets/img/icons/check4.svg" alt="" />,
   },
 
   // Keyword Research
   {
     feature: "Keyword Research",
-    basicPlan: <img src="src/assets/img/icons/check4.svg" alt="" />,
-    standardPlan: <img src="src/assets/img/icons/check4.svg" alt="" />,
-    premiumPlan: <img src="src/assets/img/icons/check4.svg" alt="" />,
+    basicPlan: <img src="../assets/img/icons/check4.svg" alt="" />,
+    standardPlan: <img src="../assets/img/icons/check4.svg" alt="" />,
+    premiumPlan: <img src="../assets/img/icons/check4.svg" alt="" />,
   },
 
   // Structure Optimization
   {
     feature: "Structure Optimization",
-    basicPlan: <img src="src/assets/img/icons/check4.svg" alt="" />,
-    standardPlan: <img src="src/assets/img/icons/check4.svg" alt="" />,
-    premiumPlan: <img src="src/assets/img/icons/check4.svg" alt="" />,
+    basicPlan: <img src="../assets/img/icons/check4.svg" alt="" />,
+    standardPlan: <img src="../assets/img/icons/check4.svg" alt="" />,
+    premiumPlan: <img src="../assets/img/icons/check4.svg" alt="" />,
   },
 
   // Content Optimization
@@ -100,17 +100,17 @@ const comparisonData: ComparisonData[] = [
   // Google Analytics Installation
   {
     feature: "Google Analytics Installation",
-    basicPlan: <img src="src/assets/img/icons/check4.svg" alt="" />,
-    standardPlan: <img src="src/assets/img/icons/check4.svg" alt="" />,
-    premiumPlan: <img src="src/assets/img/icons/check4.svg" alt="" />,
+    basicPlan: <img src="../assets/img/icons/check4.svg" alt="" />,
+    standardPlan: <img src="../assets/img/icons/check4.svg" alt="" />,
+    premiumPlan: <img src="../assets/img/icons/check4.svg" alt="" />,
   },
 
   // Google Webmaster Tools Account
   {
     feature: "Google Webmaster Tools Account",
-    basicPlan: <img src="src/assets/img/icons/check4.svg" alt="" />,
-    standardPlan: <img src="src/assets/img/icons/check4.svg" alt="" />,
-    premiumPlan: <img src="src/assets/img/icons/check4.svg" alt="" />,
+    basicPlan: <img src="../assets/img/icons/check4.svg" alt="" />,
+    standardPlan: <img src="../assets/img/icons/check4.svg" alt="" />,
+    premiumPlan: <img src="../assets/img/icons/check4.svg" alt="" />,
   },
 
   // Off-Page Optimization
@@ -148,17 +148,17 @@ const comparisonData: ComparisonData[] = [
   // YouTube Video Promotion
   {
     feature: "YouTube Video Promotion",
-    basicPlan: <img src="src/assets/img/icons/check4.svg" alt="" />,
-    standardPlan: <img src="src/assets/img/icons/check4.svg" alt="" />,
-    premiumPlan: <img src="src/assets/img/icons/check4.svg" alt="" />,
+    basicPlan: <img src="../assets/img/icons/check4.svg" alt="" />,
+    standardPlan: <img src="../assets/img/icons/check4.svg" alt="" />,
+    premiumPlan: <img src="../assets/img/icons/check4.svg" alt="" />,
   },
 
   // Links From Social Media
   {
     feature: "Links From Social Media",
-    basicPlan: <img src="src/assets/img/icons/check4.svg" alt="" />,
-    standardPlan: <img src="src/assets/img/icons/check4.svg" alt="" />,
-    premiumPlan: <img src="src/assets/img/icons/check4.svg" alt="" />,
+    basicPlan: <img src="../assets/img/icons/check4.svg" alt="" />,
+    standardPlan: <img src="../assets/img/icons/check4.svg" alt="" />,
+    premiumPlan: <img src="../assets/img/icons/check4.svg" alt="" />,
   },
 
   // Free Blog Creation

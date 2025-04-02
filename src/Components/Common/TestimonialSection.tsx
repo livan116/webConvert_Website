@@ -21,7 +21,7 @@ const testimonials: Testimonial[] = [
     author: "Sarah L.",
     rating: 5,
     authorLink: "/team",
-    logoSrc: "src/assets/img/icons/google1.svg",
+    logoSrc: "../assets/img/icons/google1.svg",
     animation: "zoom-out",
     aosDuration: 1200,
   },
@@ -31,7 +31,7 @@ const testimonials: Testimonial[] = [
     author: "David M.",
     rating: 5,
     authorLink: "/team",
-    logoSrc: "src/assets/img/icons/google1.svg",
+    logoSrc: "../assets/img/icons/google1.svg",
     animation: "zoom-out",
     aosDuration: 1200,
   },
@@ -41,7 +41,7 @@ const testimonials: Testimonial[] = [
     author: "Emily R.",
     rating: 5,
     authorLink: "/team",
-    logoSrc: "src/assets/img/icons/google1.svg",
+    logoSrc: "../assets/img/icons/google1.svg",
     animation: "zoom-out",
     aosDuration: 1200,
   },
@@ -65,7 +65,7 @@ const TestimonialSection: React.FC = () => {
             <div className="testimonia4-header text-center heading8">
               <h5 data-aos="fade-up" data-aos-duration="1000">
                 <img
-                  src="src/assets/img/icons/logo-icons3.svg"
+                  src="../assets/img/icons/logo-icons3.svg"
                   alt="Logo Icon"
                 />{" "}
                 Testimonials
@@ -75,7 +75,7 @@ const TestimonialSection: React.FC = () => {
                 <span>
                   Client Say”{" "}
                   <img
-                    src="src/assets/img/elements/line-img2.png"
+                    src="../assets/img/elements/line-img2.png"
                     alt="Line Icon"
                   />
                 </span>
@@ -89,7 +89,7 @@ const TestimonialSection: React.FC = () => {
               {testimonials.map((testimonial) => (
                 <div className="testimonial-boxarea" key={testimonial.id}>
                   <img
-                    src="src/assets/img/icons/quito2.svg"
+                    src="../assets/img/icons/quito2.svg"
                     alt="Quote Icon"
                     className="quito"
                   />
