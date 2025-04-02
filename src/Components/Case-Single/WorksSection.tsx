@@ -10,8 +10,8 @@ const stepsData = [
     buttonText: "Our Case Study",
     buttonLink: "/case",
     images: [
-      "src/assets/img/all-images/about-img6.png",
-      "src/assets/img/all-images/service-img5.png",
+      "../assets/img/all-images/about-img6.png",
+      "../assets/img/all-images/service-img5.png",
     ],
   },
   {
@@ -23,8 +23,8 @@ const stepsData = [
     buttonLink: "/case",
     reverse: true,
     images: [
-      "src/assets/img/all-images/service-img6.png",
-      "src/assets/img/all-images/service-img7.png",
+      "../assets/img/all-images/service-img6.png",
+      "../assets/img/all-images/service-img7.png",
     ],
   },
   {
@@ -35,8 +35,8 @@ const stepsData = [
     buttonText: "Our Case Study",
     buttonLink: "/case",
     images: [
-      "src/assets/img/all-images/service-img8.png",
-      "src/assets/img/all-images/service-img9.png",
+      "../assets/img/all-images/service-img8.png",
+      "../assets/img/all-images/service-img9.png",
     ],
   },
 ];

@@ -36,7 +36,7 @@ const CaseSingleSection: React.FC = () => {
                 <div className="col-lg-7">
                   <div className="case-images image-anime">
                     <img
-                      src="src/assets/img/all-images/case-img18.png"
+                      src="../assets/img/all-images/case-img18.png"
                       alt="Case Image"
                     />
                   </div>

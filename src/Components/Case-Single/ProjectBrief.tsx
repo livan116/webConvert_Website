@@ -69,7 +69,7 @@ const ProjectBrief: React.FC = () => {
               <ul>
                 {caseItems.map((item, index) => (
                   <li key={index}>
-                    <img src="src/assets/img/icons/check6.svg" alt="" />
+                    <img src="../assets/img/icons/check6.svg" alt="" />
                     {item}
                   </li>
                 ))}

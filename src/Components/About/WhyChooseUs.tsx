@@ -2,21 +2,21 @@ import { Link } from "react-router-dom";
 
 const worksData = [
   {
-    icon: "src/assets/img/icons/works-icons7.svg",
+    icon: "../assets/img/icons/works-icons7.svg",
     title: "Proven Result",
     description:
       "We have a track record of delivering tangible results for our clients. From increasing website traffic and improving search.",
     link: "/case",
   },
   {
-    icon: "src/assets/img/icons/works-icons8.svg",
+    icon: "../assets/img/icons/works-icons8.svg",
     title: "Customized Solutions",
     description:
       "We believe that one size does not fit all when it comes to digital marketing. That's why we take the time to understand your SEO.",
     link: "/case-single",
   },
   {
-    icon: "src/assets/img/icons/works-icons9.svg",
+    icon: "../assets/img/icons/works-icons9.svg",
     title: "Dedicated Support",
     description:
       "Your success is our top priority. That's why we provide dedicated support and guidance every step of the way to running SEO.",
@@ -62,12 +62,12 @@ const WhyChooseUs = () => {
           <div className="col-lg-6">
             <div className="about-all-images-area">
               <img
-                src="src/assets/img/elements/elements14.png"
+                src="../assets/img/elements/elements14.png"
                 alt="Element"
                 className="elements12 keyframe5"
               />
               <img
-                src="src/assets/img/elements/elements15.png"
+                src="../assets/img/elements/elements15.png"
                 alt="Element"
                 className="elements13 keyframe5"
               />
@@ -76,7 +76,7 @@ const WhyChooseUs = () => {
                   <div className="img1 image-anime d-md-block d-none">
                     <div className="space100"></div>
                     <img
-                      src="src/assets/img/all-images/about-img6.png"
+                      src="../assets/img/all-images/about-img6.png"
                       alt="About Image 6"
                     />
                   </div>
@@ -84,7 +84,7 @@ const WhyChooseUs = () => {
                 <div className="col-lg-6 col-md-6">
                   <div className="img2 image-anime">
                     <img
-                      src="src/assets/img/all-images/about-img5.png"
+                      src="../assets/img/all-images/about-img5.png"
                       alt="About Image 5"
                     />
                   </div>

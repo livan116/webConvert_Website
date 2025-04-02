@@ -142,47 +142,47 @@ const CaseStudies: React.FC = () => {
 
 const caseStudiesData = [
   {
-    imgSrc: "src/assets/img/all-images/case-img9.png",
+    imgSrc: "../assets/img/all-images/case-img9.png",
     tags: ["SEO"],
     title: "Comprehensive SEO Audit",
   },
   {
-    imgSrc: "src/assets/img/all-images/case-img10.png",
+    imgSrc: "../assets/img/all-images/case-img10.png",
     tags: ["Web"],
     title: "Keyword Research & Analysis",
   },
   {
-    imgSrc: "src/assets/img/all-images/case-img11.png",
+    imgSrc: "../assets/img/all-images/case-img11.png",
     tags: ["PPC"],
     title: "One Page Optimization",
   },
   {
-    imgSrc: "src/assets/img/all-images/case-img12.png",
+    imgSrc: "../assets/img/all-images/case-img12.png",
     tags: ["Branding Marketing"],
     title: "Online Media Management",
   },
   {
-    imgSrc: "src/assets/img/all-images/case-img13.png",
+    imgSrc: "../assets/img/all-images/case-img13.png",
     tags: ["Web"],
     title: "Online Management",
   },
   {
-    imgSrc: "src/assets/img/all-images/case-img14.png",
+    imgSrc: "../assets/img/all-images/case-img14.png",
     tags: ["Branding", "Marketing"],
     title: "Online Media Management",
   },
   {
-    imgSrc: "src/assets/img/all-images/case-img15.png",
+    imgSrc: "../assets/img/all-images/case-img15.png",
     tags: ["Branding", "SEO"],
     title: "Domain Migration",
   },
   {
-    imgSrc: "src/assets/img/all-images/case-img16.png",
+    imgSrc: "../assets/img/all-images/case-img16.png",
     tags: ["Marketing", "Web"],
     title: "Content Marketing",
   },
   {
-    imgSrc: "src/assets/img/all-images/case-img17.png",
+    imgSrc: "../assets/img/all-images/case-img17.png",
     tags: ["Digital", "PR"],
     title: "Content Strategy",
   },
