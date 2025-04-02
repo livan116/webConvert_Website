@@ -117,7 +117,7 @@ const Header: React.FC = () => {
                 <div className="search-icon header__search header-search-btn">
                   <Link to="#">
                     <img
-                      src="src/assets/img/icons/search-icons1.svg"
+                      src="../assets/img/icons/search-icons1.svg"
                       alt="Search"
                     />
                   </Link>
@@ -143,7 +143,7 @@ const Header: React.FC = () => {
                     />
                     <button type="submit" className="search-submit">
                       <img
-                        src="src/assets/img/icons/search-icons1.svg"
+                        src="../assets/img/icons/search-icons1.svg"
                         alt="Search"
                       />
                     </button>
